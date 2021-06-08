@@ -9,7 +9,8 @@
     text-align: center;
   }
   .cInnerContent {
-    max-width: 1240px;
+    /* max-width: 1240px; */
+    max-width: 995px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -67,9 +68,9 @@
   h2.heading_large {
     font-size: 1.8em;
   }
-  img {
+  /* img {
     max-width: 100%;
-  }
+  } */
   
   .header-section {
     margin: 200px auto;

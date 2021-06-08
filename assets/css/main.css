@@ -8,6 +8,12 @@ body {
     overflow-x: hidden;
 }
 
+h1 {
+    font-weight: normal;
+    font-size: 6rem;
+    letter-spacing: 0.1em;
+}
+
 ::-webkit-scrollbar {
     width: 0;  /* Remove scrollbar space */
     background: transparent;  /* Optional: just make scrollbar invisible */
@@ -18,11 +24,11 @@ body {
 }
 
 #name {
-    position: absolute;
+    position: fixed;
     padding-left: 35px;;
     padding-top: 35px;
     color: #000;
-    font-size: 2.4rem;
+    font-size: 1.6rem;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -43,6 +49,10 @@ body {
     top: 50%;
 }
 
+.centered-vert {
+    top: 30%;
+}
+
 .txt-centered {
     text-align: center;
 }
@@ -50,4 +60,21 @@ body {
 
 .feature {
     padding-top: 4%;
+}
+
+
+
+.text-left {
+    text-align: left;
+}
+
+.title {
+    font-weight: normal;
+    color: #000;
+    position: absolute;
+    overflow: hidden;
+    top: 40%;
+    -webkit-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0);
+    margin-left: 5%;
 }
