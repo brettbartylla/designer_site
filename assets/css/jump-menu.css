@@ -1,0 +1,21 @@
+.navigation {
+    position: fixed;
+    width: 30%;
+    margin-left: 2%;
+    background-color: #999;
+    color: #fff;
+}
+.navigation__link {
+    display: block;
+    color: #ddd;
+    text-decoration: none;
+    padding: 1em;
+    font-weight: 400;
+}
+.navigation__link:hover {
+    background-color: #aaa;
+}
+.navigation__link.active {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+}

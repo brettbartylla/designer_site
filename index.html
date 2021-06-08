@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/nav.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="stylesheet" href="assets/css/jump-menu.css">
+    
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap" rel="stylesheet">
+    
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <title>Hello!</title>
+</head>
+<body>
+    <!-- nav -->
+    <header>
+        <div id="name">
+            Claire Loes
+        </div>
+        <input type='checkbox' id='toggle' style='display:none;' />
+        <label class='toggle-btn toggle-btn__cross' for='toggle'>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </label>
+        <nav>
+            <ul>
+                <li><a href="#" class="strikethrough">Home</a></li>
+                <li><a href="#" class="strikethrough">Work</a></li>
+                <li><a href="#" class="strikethrough">Contact 
+                </a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- end nav -->
+
+    <!-- jump menu -->
+    <div class="navigation" id="mainNav">
+        <a class="navigation__link" href="#1">Section 1</a>
+        <a class="navigation__link" href="#2">Section 2</a>
+        <a class="navigation__link" href="#3">Section 3</a>
+    </div>
+    <!-- end jump menu -->
+
+
+
+    <div class="section">
+        <div class="centered txt-centered">
+            full width/height???
+        </div>
+    </div>
+    <!-- end section 1 -->
+
+    <div class="section section-2" id="1">
+
+        <div class="cInnerContent">
+            <!-- <h1 class="header-section gs_reveal ipsType_center">Scroll down and up to see different reveal animations</h1> -->
+            
+            <div class="features">
+          
+              <div class="feature ipsSpacer_bottom_double ipsGrid ipsGrid_collapsePhone">
+                <div class="ipsGrid_span7 ipsType_left">
+                  <h2 class="heading_large gs_reveal">Project 1</h2>
+                  <p class="gs_reveal">GreenSock is used in some of the most popular <a href="//threejs.org/">Three.js</a> powered WebGL projects. Animate any object in a scene. <a href="https://greensock.com/PixiPlugin/">PixiPlugin</a> makes animating <a href="//www.pixijs.com/">Pixi.js</a> objects with GSAP a breeze. Animate position, scale, color effects and more with all the power and control of GSAP and the rendering speed of Pixi.js.</p>
+                </div>
+          
+                <div class="featured-image-container ipsGrid_span5 gs_reveal gs_reveal_fromRight">
+                  <div class="">
+                    <img width="479" src="https://picsum.photos/479/479?index=2" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </div> 
+    <!-- end section 2 -->
+    <div class="section section-3" id="2">
+
+        <div class="cInnerContent">
+            <!-- <h1 class="header-section gs_reveal ipsType_center">Scroll down and up to see different reveal animations</h1> -->
+            
+            <div class="features">
+          
+              <div class="feature ipsSpacer_bottom_double ipsGrid ipsGrid_collapsePhone">
+                <div class="featured-image-container ipsGrid_span5 gs_reveal gs_reveal_fromLeft">
+                  <div class="">
+                    <img width="479" src="https://picsum.photos/479/479?index=1" alt="">
+                  </div>
+                </div>
+          
+                <div class="ipsGrid_span7 ipsType_left">
+                  <h2 class="heading_large gs_reveal">About Me</h2>
+                  <p class="gs_reveal"><a href="https://greensock.com/drawsvg/">DrawSVGPlugin</a> allows you to progressively reveal (or hide) SVG strokes to make them look like they're being drawn. <a href="https://greensock.com/morphsvg/">MorphSVGPlugin</a> to Morph any SVG shape into any other shape smoothly regardless of the number of points in each. <a href="/docs/v3/Plugins/MotionPathPlugin">MotionPathPlugin</a> allows you to easily move any object along a path.</p>
+                </div>
+              </div>
+            </div>   
+         </div>
+    
+
+    </div>
+    <!-- end section 3 -->
+
+    <div class="section section-4" id="3">
+        <div class="cInnerContent">
+            <!-- <h1 class="header-section gs_reveal ipsType_center">Scroll down and up to see different reveal animations</h1> -->
+            
+            <div class="features">
+          
+              <div class="feature ipsSpacer_bottom_double ipsGrid ipsGrid_collapsePhone">
+                <div class="ipsGrid_span7 ipsType_left">
+                  <h2 class="heading_large gs_reveal">Get In Touch</h2>
+                  <p class="gs_reveal">GreenSock is used in some of the most popular <a href="//threejs.org/">Three.js</a> powered WebGL projects. Animate any object in a scene. <a href="https://greensock.com/PixiPlugin/">PixiPlugin</a> makes animating <a href="//www.pixijs.com/">Pixi.js</a> objects with GSAP a breeze. Animate position, scale, color effects and more with all the power and control of GSAP and the rendering speed of Pixi.js.</p>
+                </div>
+          
+                <div class="featured-image-container ipsGrid_span5 gs_reveal gs_reveal_fromRight">
+                  <div class="">
+                    <img width="479" src="https://picsum.photos/479/479?index=2" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+</body>
+
+
+<script src="assets/js/img-scroll.js"></script>
+<script src="assets/js/jump-menu.js"></script>
+
+
+<!-- scrolltrigger -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/CSSRulePlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/Draggable.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/MotionPathPlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/PixiPlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/TextPlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollToPlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/EasePack.min.js"></script>
+
+</html>
