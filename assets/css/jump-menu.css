@@ -1,8 +1,13 @@
 .navigation {
+
+    -moz-transition: width 1s ease-in-out;
+    -o-transition: width 1s ease-in-out;
+    transition: width 1s ease-in-out;
+
     position: fixed;
-    width: 10%;
-    margin-left: 2%;
-    background-color: #999;
+    width: 3%;
+    margin-left: 1.8%;
+    /* background-color: #999; */
     color: #fff;
 }
 .navigation__link {
@@ -11,11 +16,16 @@
     text-decoration: none;
     padding: 1em;
     font-weight: 400;
+    border-bottom: 2px solid black;
 }
 .navigation__link:hover {
-    background-color: #aaa;
+    /* background-color: #aaa; */
 }
 .navigation__link.active {
+    -moz-transition: width 1s ease-in-out;
+    -o-transition: width 1s ease-in-out;
+    transition: width 1s ease-in-out;
     color: white;
-    background-color: rgba(0, 0, 0, 0.1);
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    width: 110%;
 }

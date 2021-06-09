@@ -36,10 +36,13 @@ h1 {
     height: 100vh;
     background: #fff;
 }
+.section-1 {
+    /* background:#071d3a; */
+}
 
 .section-2 {
     /* height: 100vh; */
-    background: red;
+    background: #fff;
 }
 .centered {
     margin: auto;
@@ -78,3 +81,78 @@ h1 {
     transform: translate3d(0, -50%, 0);
     margin-left: 5%;
 }
+
+.title-lead {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    color:#000;
+    text-decoration: none;
+}
+
+.lines-1 {
+    display: block;
+    width: 88px;
+    height: 2px;
+    border-radius: 5px;
+    background: #ff4d5a;
+    margin-bottom: 1rem;
+}
+.lines-2 {
+    display: block;
+    width: 88px;
+    height: 2px;
+    border-radius: 5px;
+    background: #ff4d5a;
+    margin-left: 54px;
+}
+/* 
+contact section */
+.social {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 2em;
+    width: 69%;
+    padding-left:0;
+}
+
+.social-link {
+    color: #ddd;
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+[title="Twitter"]:hover{
+    color: rgb(85,172,238);
+  }
+  [title="Instagram"]:hover{
+    color: rgb(124,86,65);
+  }
+  [title="Medium"]:hover{
+    color: rgb(75,75,75);
+  }
+  [title="GitHub"]:hover{
+    color: rgb(114,49,132);
+  }
+  [title="CodePen"]:hover{
+    color: #000;
+  }
+  [title="Dribbble"]:hover{
+    color: rgb(195,35,97);
+  }
+  [title="StackOverflow"]:hover {
+    color: rgb(241,99,3);
+  }
+  [title="LinkedIn"]:hover{
+    color: rgb(0,119,181);
+  }
+  [title="Resume"]:hover{
+    color: rgb(178,36,52);
+  }
+  [title="Contact"]:hover{
+    color: rgb(230,182,10);
+  }
+  [center]{
+    text-align: center;
+  }
+  /* end contact section */
